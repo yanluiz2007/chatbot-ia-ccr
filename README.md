@@ -50,7 +50,9 @@ O sistema recebe mensagens dos usuários, interpreta a intenção da solicitaç�
 
 # Fluxograma
 
-![Fluxograma](./docs/fluxograma_chatbot.png)
+<p align="center">
+  <img src="./docs/fluxograma_chatbot.png" width="900"/>
+</p>
 
 ---
 
