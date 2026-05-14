@@ -12,19 +12,9 @@ A solução foi criada com o objetivo de otimizar a comunicação entre usuário
 
 O sistema recebe mensagens dos usuários, interpreta a intenção da solicitação, identifica automaticamente a persona responsável e gera respostas inteligentes com base em contexto operacional e dados em tempo real.
 
-O projeto busca melhorar:
-
-- agilidade no atendimento
-- automação de processos
-- organização operacional
-- experiência do usuário
-- precisão nas respostas
-
 ---
 
 # Funcionamento do Sistema
-
-O fluxo principal do chatbot ocorre da seguinte forma:
 
 1. Usuário envia uma mensagem
 2. O sistema processa e sanitiza a entrada
@@ -37,93 +27,37 @@ O fluxo principal do chatbot ocorre da seguinte forma:
 
 ---
 
-# Personas Identificadas
+# Personas
 
-O chatbot realiza ramificação automática para diferentes perfis operacionais:
-
-## Motorista EV
-Responsável por informações relacionadas a:
-
-- recarga de veículos
-- status de carregadores
-- preços
-- rotas
-- disponibilidade
-
-## Gestor Energético
-Responsável por consultas relacionadas a:
-
-- monitoramento energético
-- inversores
-- peak shaving
-- consumo
-- dados MODBUS
-
-## Operação Técnica
-Responsável por:
-
-- telemetria
-- logs MQTT
-- monitoramento técnico
-- alertas operacionais
-- status de comunicação
+- Motorista EV
+- Gestor Energético
+- Operação Técnica
 
 ---
 
 # Tecnologias Utilizadas
 
-O projeto utiliza:
-
 - Inteligência Artificial
 - Claude API
-- System Prompt
 - HTML
 - CSS
 - JavaScript
 - APIs externas
 - MQTT
 - MODBUS
-- Processamento contextual
 
 ---
 
-# Estrutura do Fluxo
-
-O sistema foi estruturado utilizando:
-
-- processamento de entrada
-- classificação de intenção
-- identificação de persona
-- integração com APIs
-- montagem de contexto
-- geração de resposta via IA
-- tratamento de exceções
-
----
-
-# Diferenciais do Projeto
-
-- Respostas contextualizadas
-- Identificação automática de perfil
-- Integração com dados em tempo real
-- Estrutura escalável
-- Arquitetura organizada
-- Fluxo inteligente de atendimento
-
----
-
-# Fluxograma do Sistema
-
-O fluxograma completo do funcionamento do chatbot pode ser visualizado abaixo:
+# Fluxograma
 
 ![Fluxograma](./docs/fluxograma_chatbot.png)
 
 ---
 
-# Estrutura do Repositório
+# Integrantes
 
-```text
-/docs
-    fluxograma_chatbot.png
-
-README.md
+- Jair Fereira Dos Santos Neto — RM: 569682
+- Matheus da Costa Goncalves — RM: 570756
+- Yan Luiz Neves Lemos — RM: 571717
+- Arthur dos Santos Bezerra — RM: 569721
+- Carlos Henrique Fratezi — RM: 571792
